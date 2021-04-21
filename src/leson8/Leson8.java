@@ -15,7 +15,7 @@ public class Leson8 {
         String t = reader.readLine();
         String а = reader.readLine();
         String u = reader.readLine();
-
+        String o = reader.readLine();
         System.out.println(s + " будет получать " + Integer.parseInt(r) +" через " + Integer.parseInt(t) + " лет");
     }
 
