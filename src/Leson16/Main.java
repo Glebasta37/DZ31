@@ -1,5 +1,7 @@
 package Leson16;
 
+import Leson18.User;
+
 public class Main {
     public static void main(String[] args) {
         User user1 = new User("тата", 15);
