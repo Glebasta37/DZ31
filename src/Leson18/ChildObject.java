@@ -1,7 +1,7 @@
 package Leson18;
 
-public class ChildObject extends User {
+public class ChildObject  {
 
     }
-}
+
 

@@ -1,22 +1,28 @@
 package Leson18;
 
-public class User extends BaseObject {
+public class Uzer2 {
     private String name;
+    private String fam;
     private int age;
-    public User( String  name, int age ){
+    public  Uzer2() {
+
+    }
+
+    public Uzer2(String  name, String fam, int  age ){
         this.name = name;
+        this.fam = fam;
         this.age = age;
     }
 
-    public User() {
 
-    }
 
 
     public void setName(String name) {this.name = name;}
+    public void setFam(String fam) {this.fam = fam;}
     public void setAge(int age) {this.age = age;}
+
     @Override
     public String toString() {
-        return "my name is"+name+ "I am" + age + "years old";
+        return "my name is"+name+ fam + "I am" + age + "years old";
     }}
 
